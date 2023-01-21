@@ -1,0 +1,33 @@
+{
+	"textures": [
+		{
+			"image": "floor_stone.png",
+			"size": {
+				"w": 258,
+				"h": 258
+			},
+			"sprites": [
+				{
+					"filename": "land.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 256,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:67c5d0d1b9c53cdfd19eeb343c0ad887:2c43f7896e51516578d0c48c1e435b8e:05ac22043105e481154946227b1e9cfd$"
+	}
+}

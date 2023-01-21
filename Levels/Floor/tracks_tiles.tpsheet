@@ -1,0 +1,78 @@
+{
+	"textures": [
+		{
+			"image": "tracks_tiles.png",
+			"size": {
+				"w": 448,
+				"h": 960
+			},
+			"sprites": [
+				{
+					"filename": "circle_switch.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 448,
+						"h": 448
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -4,
+						"h": -3
+					}
+				},
+				{
+					"filename": "bridge.png",
+					"region": {
+						"x": 0,
+						"y": 448,
+						"w": 384,
+						"h": 448
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": -63
+					}
+				},
+				{
+					"filename": "track_horiz.png",
+					"region": {
+						"x": 0,
+						"y": 896,
+						"w": 192,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -63,
+						"h": 0
+					}
+				},
+				{
+					"filename": "track_vert.png",
+					"region": {
+						"x": 384,
+						"y": 448,
+						"w": 64,
+						"h": 192
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": -63
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:a16f74e30af3ce6c4c64bf652fc03719:b100255b28fe17c3c89d7b2d7b77b5eb:90e148d2a7a608cb874785c41df21002$"
+	}
+}

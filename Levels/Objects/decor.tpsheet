@@ -1,0 +1,423 @@
+{
+	"textures": [
+		{
+			"image": "decor.png",
+			"size": {
+				"w": 1280,
+				"h": 1984
+			},
+			"sprites": [
+				{
+					"filename": "decor_18.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 638,
+						"h": 382
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -46,
+						"h": -24
+					}
+				},
+				{
+					"filename": "decor_20.png",
+					"region": {
+						"x": 641,
+						"y": 1,
+						"w": 574,
+						"h": 510
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -18,
+						"h": -38
+					}
+				},
+				{
+					"filename": "decor_2.png",
+					"region": {
+						"x": 1217,
+						"y": 1,
+						"w": 62,
+						"h": 126
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -9,
+						"h": -39
+					}
+				},
+				{
+					"filename": "decor_15.png",
+					"region": {
+						"x": 1217,
+						"y": 129,
+						"w": 62,
+						"h": 62
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": -20
+					}
+				},
+				{
+					"filename": "decor_v2_1.png",
+					"region": {
+						"x": 1,
+						"y": 385,
+						"w": 510,
+						"h": 638
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -62,
+						"h": -61
+					}
+				},
+				{
+					"filename": "decor_14.png",
+					"region": {
+						"x": 513,
+						"y": 385,
+						"w": 126,
+						"h": 126
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -29,
+						"h": -57
+					}
+				},
+				{
+					"filename": "decor_17.png",
+					"region": {
+						"x": 513,
+						"y": 513,
+						"w": 510,
+						"h": 446
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -25,
+						"h": -34
+					}
+				},
+				{
+					"filename": "decor_11.png",
+					"region": {
+						"x": 1025,
+						"y": 513,
+						"w": 254,
+						"h": 254
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -27,
+						"h": -45
+					}
+				},
+				{
+					"filename": "decor_6.png",
+					"region": {
+						"x": 1025,
+						"y": 769,
+						"w": 254,
+						"h": 190
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -6,
+						"h": -2
+					}
+				},
+				{
+					"filename": "decor_13.png",
+					"region": {
+						"x": 513,
+						"y": 961,
+						"w": 446,
+						"h": 574
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -32,
+						"h": -22
+					}
+				},
+				{
+					"filename": "decor_16.png",
+					"region": {
+						"x": 961,
+						"y": 961,
+						"w": 318,
+						"h": 446
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -33,
+						"h": -58
+					}
+				},
+				{
+					"filename": "decor_v2_2.png",
+					"region": {
+						"x": 961,
+						"y": 1409,
+						"w": 318,
+						"h": 382
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -43,
+						"h": -7
+					}
+				},
+				{
+					"filename": "decor_19.png",
+					"region": {
+						"x": 1,
+						"y": 1537,
+						"w": 446,
+						"h": 446
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -43,
+						"h": -39
+					}
+				},
+				{
+					"filename": "decor_5.png",
+					"region": {
+						"x": 449,
+						"y": 1793,
+						"w": 190,
+						"h": 190
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -20,
+						"h": -21
+					}
+				},
+				{
+					"filename": "decor_3.png",
+					"region": {
+						"x": 449,
+						"y": 1537,
+						"w": 446,
+						"h": 254
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -56,
+						"h": -33
+					}
+				},
+				{
+					"filename": "decor_v2_7.png",
+					"region": {
+						"x": 641,
+						"y": 1793,
+						"w": 190,
+						"h": 190
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -17,
+						"h": -32
+					}
+				},
+				{
+					"filename": "decor_9.png",
+					"region": {
+						"x": 833,
+						"y": 1793,
+						"w": 318,
+						"h": 126
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -44,
+						"h": -2
+					}
+				},
+				{
+					"filename": "decor_7.png",
+					"region": {
+						"x": 1153,
+						"y": 1793,
+						"w": 126,
+						"h": 126
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -36,
+						"h": -44
+					}
+				},
+				{
+					"filename": "decor_1.png",
+					"region": {
+						"x": 833,
+						"y": 1921,
+						"w": 126,
+						"h": 62
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -55,
+						"h": -15
+					}
+				},
+				{
+					"filename": "decor_12.png",
+					"region": {
+						"x": 961,
+						"y": 1921,
+						"w": 126,
+						"h": 62
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -25,
+						"h": 0
+					}
+				},
+				{
+					"filename": "decor_v2_3.png",
+					"region": {
+						"x": 1089,
+						"y": 1921,
+						"w": 126,
+						"h": 62
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -54,
+						"h": -15
+					}
+				},
+				{
+					"filename": "decor_10.png",
+					"region": {
+						"x": 1,
+						"y": 1025,
+						"w": 318,
+						"h": 254
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -63,
+						"h": -20
+					}
+				},
+				{
+					"filename": "decor_4.png",
+					"region": {
+						"x": 1,
+						"y": 1281,
+						"w": 318,
+						"h": 254
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -31,
+						"h": -31
+					}
+				},
+				{
+					"filename": "decor_v2_4.png",
+					"region": {
+						"x": 321,
+						"y": 1025,
+						"w": 190,
+						"h": 126
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -60,
+						"h": -20
+					}
+				},
+				{
+					"filename": "decor_v2_6.png",
+					"region": {
+						"x": 321,
+						"y": 1153,
+						"w": 190,
+						"h": 126
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -58,
+						"h": -28
+					}
+				},
+				{
+					"filename": "decor_8.png",
+					"region": {
+						"x": 321,
+						"y": 1281,
+						"w": 126,
+						"h": 126
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -39,
+						"h": -19
+					}
+				},
+				{
+					"filename": "decor_v2_5.png",
+					"region": {
+						"x": 321,
+						"y": 1409,
+						"w": 126,
+						"h": 126
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -24,
+						"h": -53
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:2a63bd9f0f1157c7e4256044fcc5aeb6:7a6240e928deaf1c89f7ff2b65090ee6:a18a3ea31467dcc77ccbaaf17e54343d$"
+	}
+}

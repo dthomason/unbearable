@@ -1,0 +1,53 @@
+[gd_scene load_steps=7 format=3 uid="uid://cqhgbl0aowb6y"]
+
+[ext_resource type="Texture2D" uid="uid://m077pk18fkum" path="res://Levels/Objects/carrt.png" id="1_pvu1y"]
+[ext_resource type="Texture2D" uid="uid://d3laqujucveh3" path="res://Levels/Objects/carrt_n.png" id="2_aqt5q"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_05fwl"]
+diffuse_texture = ExtResource("1_pvu1y")
+normal_texture = ExtResource("2_aqt5q")
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_uycey"]
+diffuse_texture = ExtResource("1_pvu1y")
+normal_texture = ExtResource("2_aqt5q")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_02yp8"]
+size = Vector2(184, 100)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jf02d"]
+
+[node name="CartBody" type="StaticBody2D"]
+collision_mask = 16
+
+[node name="Cart" type="Sprite2D" parent="."]
+position = Vector2(0, -21.5489)
+texture = SubResource("CanvasTexture_05fwl")
+offset = Vector2(2.01166e-07, -18.5301)
+region_enabled = true
+region_rect = Rect2(0, 0, 192, 102)
+
+[node name="LeftWheel" type="Sprite2D" parent="Cart"]
+show_behind_parent = true
+position = Vector2(-0.333657, 28.5446)
+texture = SubResource("CanvasTexture_uycey")
+offset = Vector2(-40.134, 1.48)
+region_enabled = true
+region_rect = Rect2(196, 0, 32, 32)
+
+[node name="RightWheel" type="Sprite2D" parent="Cart"]
+show_behind_parent = true
+position = Vector2(-0.349072, 29.5445)
+texture = SubResource("CanvasTexture_uycey")
+offset = Vector2(36.8569, 2.66696)
+region_enabled = true
+region_rect = Rect2(196, 0, 32, 32)
+
+[node name="CartCollision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -40)
+shape = SubResource("RectangleShape2D_02yp8")
+
+[node name="CartArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2d" type="CollisionShape2D" parent="CartArea"]
+position = Vector2(0, -12)
+shape = SubResource("RectangleShape2D_jf02d")

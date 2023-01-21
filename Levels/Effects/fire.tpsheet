@@ -1,0 +1,318 @@
+{
+	"textures": [
+		{
+			"image": "fire.png",
+			"size": {
+				"w": 1984,
+				"h": 896
+			},
+			"sprites": [
+				{
+					"filename": "1_effect_fire_018.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 128
+					},
+					"margin": {
+						"x": 128,
+						"y": 960,
+						"w": 391,
+						"h": 1071
+					}
+				},
+				{
+					"filename": "decor_3.png",
+					"region": {
+						"x": 64,
+						"y": 0,
+						"w": 256,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -61,
+						"h": -17
+					}
+				},
+				{
+					"filename": "1_effect_fire_004.png",
+					"region": {
+						"x": 320,
+						"y": 0,
+						"w": 256,
+						"h": 192
+					},
+					"margin": {
+						"x": 64,
+						"y": 896,
+						"w": 199,
+						"h": 1007
+					}
+				},
+				{
+					"filename": "1_effect_fire_017.png",
+					"region": {
+						"x": 576,
+						"y": 0,
+						"w": 320,
+						"h": 192
+					},
+					"margin": {
+						"x": 0,
+						"y": 896,
+						"w": 135,
+						"h": 1007
+					}
+				},
+				{
+					"filename": "1_effect_fire_002.png",
+					"region": {
+						"x": 896,
+						"y": 0,
+						"w": 192,
+						"h": 256
+					},
+					"margin": {
+						"x": 128,
+						"y": 448,
+						"w": 263,
+						"h": 943
+					}
+				},
+				{
+					"filename": "1_effect_fire_003.png",
+					"region": {
+						"x": 1088,
+						"y": 0,
+						"w": 128,
+						"h": 256
+					},
+					"margin": {
+						"x": 128,
+						"y": 704,
+						"w": 327,
+						"h": 943
+					}
+				},
+				{
+					"filename": "1_effect_fire_014.png",
+					"region": {
+						"x": 1216,
+						"y": 0,
+						"w": 384,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 832,
+						"w": 71,
+						"h": 943
+					}
+				},
+				{
+					"filename": "1_effect_fire_015.png",
+					"region": {
+						"x": 1600,
+						"y": 0,
+						"w": 384,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 832,
+						"w": 71,
+						"h": 943
+					}
+				},
+				{
+					"filename": "1_effect_fire_016.png",
+					"region": {
+						"x": 0,
+						"y": 128,
+						"w": 320,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 832,
+						"w": 135,
+						"h": 943
+					}
+				},
+				{
+					"filename": "1_effect_fire_000.png",
+					"region": {
+						"x": 320,
+						"y": 192,
+						"w": 256,
+						"h": 320
+					},
+					"margin": {
+						"x": 192,
+						"y": 0,
+						"w": 199,
+						"h": 879
+					}
+				},
+				{
+					"filename": "1_effect_fire_001.png",
+					"region": {
+						"x": 320,
+						"y": 192,
+						"w": 256,
+						"h": 320
+					},
+					"margin": {
+						"x": 192,
+						"y": 0,
+						"w": 199,
+						"h": 879
+					}
+				},
+				{
+					"filename": "1_effect_fire_005.png",
+					"region": {
+						"x": 576,
+						"y": 192,
+						"w": 320,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 768,
+						"w": 135,
+						"h": 879
+					}
+				},
+				{
+					"filename": "1_effect_fire_006.png",
+					"region": {
+						"x": 896,
+						"y": 256,
+						"w": 320,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 768,
+						"w": 135,
+						"h": 879
+					}
+				},
+				{
+					"filename": "1_effect_fire_007.png",
+					"region": {
+						"x": 1216,
+						"y": 256,
+						"w": 384,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 768,
+						"w": 71,
+						"h": 879
+					}
+				},
+				{
+					"filename": "1_effect_fire_008.png",
+					"region": {
+						"x": 1600,
+						"y": 256,
+						"w": 384,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 768,
+						"w": 71,
+						"h": 879
+					}
+				},
+				{
+					"filename": "1_effect_fire_009.png",
+					"region": {
+						"x": 0,
+						"y": 512,
+						"w": 384,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 768,
+						"w": 71,
+						"h": 879
+					}
+				},
+				{
+					"filename": "1_effect_fire_010.png",
+					"region": {
+						"x": 384,
+						"y": 512,
+						"w": 384,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 768,
+						"w": 71,
+						"h": 879
+					}
+				},
+				{
+					"filename": "1_effect_fire_011.png",
+					"region": {
+						"x": 768,
+						"y": 576,
+						"w": 384,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 768,
+						"w": 71,
+						"h": 879
+					}
+				},
+				{
+					"filename": "1_effect_fire_012.png",
+					"region": {
+						"x": 1152,
+						"y": 576,
+						"w": 384,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 768,
+						"w": 71,
+						"h": 879
+					}
+				},
+				{
+					"filename": "1_effect_fire_013.png",
+					"region": {
+						"x": 1536,
+						"y": 576,
+						"w": 384,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 768,
+						"w": 71,
+						"h": 879
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:d09a623a9b0320917d0611881eae299f:750dd9deb738fa6e245782c5e51e2fa5:3b95f9ee06c6eea9fb51cacef442595a$"
+	}
+}

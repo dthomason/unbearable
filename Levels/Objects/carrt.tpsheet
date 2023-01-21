@@ -1,0 +1,48 @@
+{
+	"textures": [
+		{
+			"image": "carrt.png",
+			"size": {
+				"w": 260,
+				"h": 128
+			},
+			"sprites": [
+				{
+					"filename": "Cart.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": -25
+					}
+				},
+				{
+					"filename": "wheel.png",
+					"region": {
+						"x": 196,
+						"y": 0,
+						"w": 64,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -32,
+						"h": -32
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:672f4a387eddeaa62522ad9d5415d849:786cf21dd58cc2f10cc1d6510932071e:3935cebf1297496cac86184cf829e414$"
+	}
+}

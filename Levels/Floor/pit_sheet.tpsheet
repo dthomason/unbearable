@@ -1,0 +1,108 @@
+{
+	"textures": [
+		{
+			"image": "pit_sheet.png",
+			"size": {
+				"w": 1604,
+				"h": 966
+			},
+			"sprites": [
+				{
+					"filename": "long_pit_left.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 1280,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "top_corner_pit_left.png",
+					"region": {
+						"x": 1283,
+						"y": 1,
+						"w": 320,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "long_pit_right.png",
+					"region": {
+						"x": 1,
+						"y": 323,
+						"w": 1280,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "center_pit_left.png",
+					"region": {
+						"x": 1,
+						"y": 645,
+						"w": 512,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "center_pit_right.png",
+					"region": {
+						"x": 515,
+						"y": 645,
+						"w": 512,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "top_corner_pit_right.png",
+					"region": {
+						"x": 1029,
+						"y": 645,
+						"w": 320,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:1dc7eb27529774da3c7e362a6c19aeb7:f4765aa80c112ce13a6d0d7889102957:3f2bbbf2527499d4102b29bccf1f9b72$"
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"textures": [
+		{
+			"image": "torch.png",
+			"size": {
+				"w": 64,
+				"h": 448
+			},
+			"sprites": [
+				{
+					"filename": "torch_pole.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 192
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_1.png",
+					"region": {
+						"x": 0,
+						"y": 192,
+						"w": 64,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch_2.png",
+					"region": {
+						"x": 0,
+						"y": 320,
+						"w": 64,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:87829dc22e9bc4e5490bfa4868f3da6c:347963d6dd7d7aed51f69d63c2320302:c25bb15bb1b38fbb0cfed654e120215c$"
+	}
+}

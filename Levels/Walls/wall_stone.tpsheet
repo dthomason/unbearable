@@ -1,0 +1,228 @@
+{
+	"textures": [
+		{
+			"image": "wall_stone.png",
+			"size": {
+				"w": 1920,
+				"h": 256
+			},
+			"sprites": [
+				{
+					"filename": "wall_1.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 256,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_5.png",
+					"region": {
+						"x": 256,
+						"y": 0,
+						"w": 256,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_6.png",
+					"region": {
+						"x": 512,
+						"y": 0,
+						"w": 256,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_8.png",
+					"region": {
+						"x": 768,
+						"y": 0,
+						"w": 256,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_11.png",
+					"region": {
+						"x": 1024,
+						"y": 0,
+						"w": 192,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_12.png",
+					"region": {
+						"x": 1216,
+						"y": 0,
+						"w": 192,
+						"h": 256
+					},
+					"margin": {
+						"x": 64,
+						"y": 0,
+						"w": 64,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_9.png",
+					"region": {
+						"x": 1408,
+						"y": 0,
+						"w": 256,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_4.png",
+					"region": {
+						"x": 1408,
+						"y": 128,
+						"w": 256,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_10.png",
+					"region": {
+						"x": 1408,
+						"y": 192,
+						"w": 64,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_2.png",
+					"region": {
+						"x": 1664,
+						"y": 0,
+						"w": 64,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_3.png",
+					"region": {
+						"x": 1728,
+						"y": 0,
+						"w": 64,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_7.png",
+					"region": {
+						"x": 1792,
+						"y": 0,
+						"w": 64,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_13.png",
+					"region": {
+						"x": 1856,
+						"y": 0,
+						"w": 64,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -32,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wall_14.png",
+					"region": {
+						"x": 1856,
+						"y": 128,
+						"w": 64,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -32,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:241104730e8d45237d81f6a056034f72:7b80e55173bb950c95a26d5645783cf1:fae9dd99ad3daee74d9043a581d9d3e3$"
+	}
+}

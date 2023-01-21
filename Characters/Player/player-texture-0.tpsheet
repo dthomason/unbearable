@@ -1,0 +1,63 @@
+{
+	"textures": [
+		{
+			"image": "player-texture-0.png",
+			"size": {
+				"w": 332,
+				"h": 291
+			},
+			"sprites": [
+				{
+					"filename": "player-texture-0.png",
+					"region": {
+						"x": 1,
+						"y": 1,
+						"w": 290,
+						"h": 289
+					},
+					"margin": {
+						"x": 1,
+						"y": 1,
+						"w": 2,
+						"h": 2
+					}
+				},
+				{
+					"filename": "right_arm.png",
+					"region": {
+						"x": 293,
+						"y": 1,
+						"w": 38,
+						"h": 69
+					},
+					"margin": {
+						"x": 2,
+						"y": 5,
+						"w": 5,
+						"h": 7
+					}
+				},
+				{
+					"filename": "left_arm.png",
+					"region": {
+						"x": 293,
+						"y": 72,
+						"w": 38,
+						"h": 67
+					},
+					"margin": {
+						"x": 0,
+						"y": 5,
+						"w": 1,
+						"h": 9
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b219b886ebb6242ae6d48ea834570790:fd9ec638214e0896358fa09c0d469a74:822696db819bf8567950f8d829b240a3$"
+	}
+}

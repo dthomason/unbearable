@@ -1,0 +1,168 @@
+{
+	"textures": [
+		{
+			"image": "cave_wall.png",
+			"size": {
+				"w": 2048,
+				"h": 1024
+			},
+			"sprites": [
+				{
+					"filename": "cave_wall_left.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 576,
+						"h": 640
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -62,
+						"h": -47
+					}
+				},
+				{
+					"filename": "cave_wall_1.png",
+					"region": {
+						"x": 0,
+						"y": 640,
+						"w": 768,
+						"h": 384
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -61,
+						"h": -24
+					}
+				},
+				{
+					"filename": "cave_wall_right.png",
+					"region": {
+						"x": 576,
+						"y": 0,
+						"w": 576,
+						"h": 640
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -62,
+						"h": -47
+					}
+				},
+				{
+					"filename": "cave_wall_2.png",
+					"region": {
+						"x": 768,
+						"y": 640,
+						"w": 768,
+						"h": 384
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -61,
+						"h": -24
+					}
+				},
+				{
+					"filename": "cave_enter_left_w.png",
+					"region": {
+						"x": 1152,
+						"y": 0,
+						"w": 448,
+						"h": 384
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -53,
+						"h": -20
+					}
+				},
+				{
+					"filename": "cave_enter_right_w.png",
+					"region": {
+						"x": 1600,
+						"y": 0,
+						"w": 448,
+						"h": 384
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -53,
+						"h": -20
+					}
+				},
+				{
+					"filename": "cave_enter_st8_w.png",
+					"region": {
+						"x": 1152,
+						"y": 384,
+						"w": 512,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": -48
+					}
+				},
+				{
+					"filename": "cave_enter_st8.png",
+					"region": {
+						"x": 1664,
+						"y": 384,
+						"w": 320,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -31,
+						"h": -46
+					}
+				},
+				{
+					"filename": "cave_enter_left.png",
+					"region": {
+						"x": 1536,
+						"y": 640,
+						"w": 256,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -9,
+						"h": -11
+					}
+				},
+				{
+					"filename": "cave_enter_right.png",
+					"region": {
+						"x": 1792,
+						"y": 640,
+						"w": 256,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -9,
+						"h": -11
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:2aabc2af901a5817cdb5979b5421887d:d13956ee43f8be293d955edd8ae559b4:6e72ee22fa1c6bf383da514af4310cab$"
+	}
+}

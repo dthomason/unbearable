@@ -1,0 +1,93 @@
+{
+	"textures": [
+		{
+			"image": "roads-0.png",
+			"size": {
+				"w": 896,
+				"h": 2048
+			},
+			"sprites": [
+				{
+					"filename": "road_zig_vert.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 448,
+						"h": 896
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -32,
+						"h": -4
+					}
+				},
+				{
+					"filename": "road_circle.png",
+					"region": {
+						"x": 0,
+						"y": 896,
+						"w": 768,
+						"h": 768
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "road_zig_horiz.png",
+					"region": {
+						"x": 0,
+						"y": 1664,
+						"w": 896,
+						"h": 384
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "road_vert.png",
+					"region": {
+						"x": 448,
+						"y": 0,
+						"w": 256,
+						"h": 384
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": -58
+					}
+				},
+				{
+					"filename": "road_horiz.png",
+					"region": {
+						"x": 448,
+						"y": 384,
+						"w": 320,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:f1bc4adeeb844e7644af37c350042fab:1261fcae8ad961767c350f6a9119f2c5:6284867ea5e601705d2f7065b9c55198$"
+	}
+}

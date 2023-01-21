@@ -1,0 +1,108 @@
+{
+	"textures": [
+		{
+			"image": "tracks.png",
+			"size": {
+				"w": 392,
+				"h": 452
+			},
+			"sprites": [
+				{
+					"filename": "track_circle.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 320,
+						"h": 320
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -4,
+						"h": -4
+					}
+				},
+				{
+					"filename": "Cart.png",
+					"region": {
+						"x": 0,
+						"y": 324,
+						"w": 128,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": -25
+					}
+				},
+				{
+					"filename": "cart_stop.png",
+					"region": {
+						"x": 132,
+						"y": 324,
+						"w": 64,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": -16
+					}
+				},
+				{
+					"filename": "track_horiz.png",
+					"region": {
+						"x": 200,
+						"y": 324,
+						"w": 192,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -62,
+						"h": 0
+					}
+				},
+				{
+					"filename": "track_vert.png",
+					"region": {
+						"x": 324,
+						"y": 0,
+						"w": 64,
+						"h": 192
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": -62
+					}
+				},
+				{
+					"filename": "wheel.png",
+					"region": {
+						"x": 324,
+						"y": 196,
+						"w": 64,
+						"h": 64
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -32,
+						"h": -32
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:e9429d288ed93fbbd6659223998bd616:308ee155e7204a2e2c3fc94a9694b656:60da10dbbca328c33bc497ead0a5b02f$"
+	}
+}

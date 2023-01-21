@@ -1,0 +1,228 @@
+{
+	"textures": [
+		{
+			"image": "greenery.png",
+			"size": {
+				"w": 704,
+				"h": 704
+			},
+			"sprites": [
+				{
+					"filename": "crystal_1.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -35,
+						"h": -18
+					}
+				},
+				{
+					"filename": "crystal_2.png",
+					"region": {
+						"x": 128,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -23,
+						"h": -17
+					}
+				},
+				{
+					"filename": "crystal_5.png",
+					"region": {
+						"x": 256,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -58,
+						"h": -50
+					}
+				},
+				{
+					"filename": "greenery_10.png",
+					"region": {
+						"x": 384,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -26,
+						"h": -45
+					}
+				},
+				{
+					"filename": "greenery_2.png",
+					"region": {
+						"x": 512,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -38,
+						"h": -1
+					}
+				},
+				{
+					"filename": "greenery_4.png",
+					"region": {
+						"x": 0,
+						"y": 128,
+						"w": 128,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -36,
+						"h": -12
+					}
+				},
+				{
+					"filename": "greenery_8.png",
+					"region": {
+						"x": 128,
+						"y": 128,
+						"w": 128,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -8,
+						"h": -42
+					}
+				},
+				{
+					"filename": "greenery_9.png",
+					"region": {
+						"x": 256,
+						"y": 128,
+						"w": 128,
+						"h": 128
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -13,
+						"h": -50
+					}
+				},
+				{
+					"filename": "crystal_3.png",
+					"region": {
+						"x": 384,
+						"y": 128,
+						"w": 192,
+						"h": 192
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -40,
+						"h": -39
+					}
+				},
+				{
+					"filename": "crystal_9.png",
+					"region": {
+						"x": 576,
+						"y": 128,
+						"w": 128,
+						"h": 192
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -35,
+						"h": -43
+					}
+				},
+				{
+					"filename": "greenery_5.png",
+					"region": {
+						"x": 0,
+						"y": 320,
+						"w": 128,
+						"h": 192
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -52,
+						"h": -33
+					}
+				},
+				{
+					"filename": "greenery_6.png",
+					"region": {
+						"x": 128,
+						"y": 320,
+						"w": 128,
+						"h": 192
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -24,
+						"h": -28
+					}
+				},
+				{
+					"filename": "greenery_7.png",
+					"region": {
+						"x": 256,
+						"y": 320,
+						"w": 128,
+						"h": 192
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -43,
+						"h": -36
+					}
+				},
+				{
+					"filename": "greenery_1.png",
+					"region": {
+						"x": 384,
+						"y": 320,
+						"w": 256,
+						"h": 256
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": -20,
+						"h": -38
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:fafe6622bbb85376a0494c55335d7a3f:645211b414b0c367412841a6d9180956:725ba2410be2df41909d4cc90d2cc928$"
+	}
+}

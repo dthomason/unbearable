@@ -1,0 +1,133 @@
+[gd_scene load_steps=8 format=3 uid="uid://dpwb6r3wl6cdq"]
+
+[ext_resource type="Texture2D" uid="uid://ynpd6ewg3at2" path="res://Lights/sprites/star_05.png" id="3_qykvw"]
+[ext_resource type="Texture2D" uid="uid://dexj2fw0x8pmv" path="res://Levels/Objects/torch.png" id="4_16yma"]
+[ext_resource type="Texture2D" uid="uid://bpteehwidcbaf" path="res://Levels/Objects/torch_n.png" id="5_hvgc2"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_k6ixy"]
+diffuse_texture = ExtResource("4_16yma")
+normal_texture = ExtResource("5_hvgc2")
+
+[sub_resource type="Animation" id="Animation_itaal"]
+resource_name = "Burn"
+length = 0.8
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("flame_1:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("flame_2:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PointLight2d:texture_scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [2.8, 3.0, 2.7]
+}
+
+[sub_resource type="Animation" id="Animation_4ey7l"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("flame_2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("flame_1:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PointLight2d:texture_scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [2.36]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_mgfys"]
+_data = {
+"Burn": SubResource("Animation_itaal"),
+"RESET": SubResource("Animation_4ey7l")
+}
+
+[node name="TorchBody" type="Node2D"]
+
+[node name="PointLight2d" type="PointLight2D" parent="."]
+position = Vector2(0, -158)
+color = Color(0.969587, 0.377984, 0.189047, 1)
+energy = 3.0
+shadow_enabled = true
+texture = ExtResource("3_qykvw")
+texture_scale = 2.36
+height = 270.0
+
+[node name="Pole" type="Sprite2D" parent="."]
+position = Vector2(0, -50)
+texture = SubResource("CanvasTexture_k6ixy")
+offset = Vector2(5, 15)
+region_enabled = true
+region_rect = Rect2(0, 0, 70, 190)
+
+[node name="flame_2" type="Sprite2D" parent="."]
+position = Vector2(3, -118)
+texture = SubResource("CanvasTexture_k6ixy")
+offset = Vector2(5, -55)
+region_enabled = true
+region_rect = Rect2(0, 320, 70, 130)
+
+[node name="flame_1" type="Sprite2D" parent="."]
+position = Vector2(0, -192)
+texture = SubResource("CanvasTexture_k6ixy")
+offset = Vector2(5, 15)
+region_enabled = true
+region_rect = Rect2(0, 190, 70, 130)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Burn"
+libraries = {
+"": SubResource("AnimationLibrary_mgfys")
+}
