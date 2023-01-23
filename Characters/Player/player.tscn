@@ -1179,7 +1179,7 @@ region_enabled = true
 region_rect = Rect2(123, 119, 41, 46)
 
 [node name="ShoulderRight" type="Sprite2D" parent="Body"]
-position = Vector2(-16, -68)
+position = Vector2(-16, -68.6357)
 rotation = 0.00978184
 texture = SubResource("CanvasTexture_h8xy1")
 offset = Vector2(1.03587, 23.5372)
@@ -1240,7 +1240,12 @@ root_path = NodePath(".")
 replication_config = SubResource("SceneReplicationConfig_3i60n")
 script = ExtResource("10_xabqo")
 
-[node name="Label" type="Label" parent="."]
+[node name="PlayerName" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "name"
+
+[node name="PlayerState" type="Label" parent="."]
 offset_right = 40.0
 offset_bottom = 23.0
 text = "name"

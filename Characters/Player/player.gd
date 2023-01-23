@@ -7,7 +7,8 @@
 # Water Level = "Liquify"
 extends CharacterBody2D
 
-enum PLAYER_STATE { IDLE, MOVE, DEAD }
+enum PLAYER_STATE { IDLE, MOVING, DYING, DEAD }
+var state_names = ["Idle", "Moving", "Dying", "Dead"]
 
 var look_direction = Vector2(1,0)
 var input_direction : Vector2 = Vector2.ZERO
@@ -21,10 +22,11 @@ var excluded_from_coloring : Array[String] = [ "Shadow", "Mouth", "EyeRight", "E
 @onready var body_parts = $Body
 @onready var camera : Camera2D = $Camera
 @onready var sync = $MultiplayerSynchronizer
-@onready var label : Label = $Label
+@onready var player_name : Label = $PlayerName
+@onready var player_state : Label = $PlayerState
 
 func _ready():
-	label.text = str(name)
+	player_name.text = str(name)
 	sync.set_multiplayer_authority(str(name).to_int())
 	camera.current = sync.is_multiplayer_authority()
 	
@@ -39,13 +41,20 @@ func set_color(color: Color, body = body_parts, exclude = excluded_from_coloring
 				e.self_modulate = color
 				set_color(color, e, exclude)
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	if sync.is_multiplayer_authority():
 		if state == PLAYER_STATE.DEAD:
 			return
-
+			
 		input_direction = get_input_direction()
 		
+		if input_direction:
+			state = PLAYER_STATE.MOVING
+		elif Input.is_action_pressed("effect_tester"):
+			state = PLAYER_STATE.DEAD
+		else:
+			state = PLAYER_STATE.IDLE
+				
 		# Sync for Multi Player
 		global_position += input_direction.normalized()
 		sync.position = global_position
@@ -57,27 +66,28 @@ func _physics_process(delta):
 		move_and_slide()
 
 		# Set current state
-		pick_new_state()
+		react_to_state()
 
-		## TESTING FUNC ONLY
-		get_special_keys()
 
 func get_special_keys():
-	if Input.is_action_pressed("Trigger_Effect"):
-		anim_state.travel("Burn")
+	if Input.is_action_pressed("effect_tester"):
+		print("SHOULD BE DYING")
 		state = PLAYER_STATE.DEAD
 
-func pick_new_state():
-	if state == PLAYER_STATE.DEAD:
-		return
-	if input_direction:
-		set_look_direction(look_direction * input_direction)
-		anim_state.travel("Walk")
-		state = PLAYER_STATE.MOVE
-	else:
-		anim_state.travel("Idle")
-		state = PLAYER_STATE.IDLE
-
+func react_to_state():
+	player_state.text = state_names[state]
+	match state:
+		PLAYER_STATE.DEAD:
+			player_state.text = "Dead"
+			anim_state.travel("Burn")
+		PLAYER_STATE.MOVING:
+			player_state.text = "Moving"
+			set_look_direction(look_direction * input_direction)
+			anim_state.travel("Walk")
+		PLAYER_STATE.IDLE:
+			player_state.text = "Idle"
+			anim_state.travel("Idle")
+	
 func get_input_direction():
 	return Vector2(
 		Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
@@ -88,7 +98,8 @@ func set_look_direction(value):
 	if not value.x:
 		return
 	var new_look_direction = Vector2(value.x, 0)
-	print(new_look_direction)
 	sync.x_transform = new_look_direction
 	body_parts.transform.x = new_look_direction
+
+
 
