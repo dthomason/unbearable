@@ -88,6 +88,7 @@ func set_look_direction(value):
 	if not value.x:
 		return
 	var new_look_direction = Vector2(value.x, 0)
+	print(new_look_direction)
 	sync.x_transform = new_look_direction
 	body_parts.transform.x = new_look_direction
 

@@ -13,7 +13,7 @@ extends MultiplayerSynchronizer
 		if is_multiplayer_authority():
 			x_transform = val
 		else:
-			get_parent().transform.x = val
+			get_parent().get_node("Body").transform.x = val
 
 #@export var player_color:Color:
 #	set(val):

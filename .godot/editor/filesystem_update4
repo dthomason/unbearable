@@ -1,6 +1,5 @@
-res://main.tscn
-res://main.gd
 res://Characters/Player/player.tscn
 res://Levels/Level01.tscn
-res://Characters/Player/multiplayer_synchronizer.gd
+res://main.tscn
 res://Characters/Player/player.gd
+res://Characters/Player/multiplayer_synchronizer.gd
