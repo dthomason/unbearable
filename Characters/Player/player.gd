@@ -22,7 +22,7 @@ var excluded : Array[String] = [ "Shadow", "Mouth", "EyeRight", "EyeLeft", "Tumm
 
 func _ready():
 	set_color(body_parts, colored, excluded)
-	
+
 func set_color(body: Node2D, color: Color, exclude: Array[String]):
 	for e in body.get_children():
 		if !exclude.has(str(e.name)):
@@ -32,26 +32,26 @@ func set_color(body: Node2D, color: Color, exclude: Array[String]):
 func _physics_process(delta):
 	if state == PLAYER_STATE.DEAD:
 		return
-		
+
 	input_direction = get_input_direction()
-		
+
 	# Update velocity
 	velocity = input_direction.normalized() * move_speed
-	
+
 	# Actually move character
 	move_and_slide()
-	
+
 	# Set current state
 	pick_new_state()
-	
+
 	## TESTING FUNC ONLY
 	get_special_keys()
-	
+
 func get_special_keys():
 	if Input.is_action_pressed("Trigger_Effect"):
 		anim_state.travel("Burn")
 		state = PLAYER_STATE.DEAD
-	
+
 func pick_new_state():
 	if state == PLAYER_STATE.DEAD:
 		return
@@ -73,4 +73,4 @@ func set_look_direction(value):
 	if not value.x:
 		return
 	body_parts.transform.x = Vector2(value.x, 0)
-	
+
