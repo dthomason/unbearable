@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=3 uid="uid://dmwxsjaqt1df6"]
+[gd_scene load_steps=45 format=3 uid="uid://dmwxsjaqt1df6"]
 
 [ext_resource type="Script" path="res://Characters/Player/player.gd" id="1_2oqu3"]
 [ext_resource type="Texture2D" uid="uid://d26gn35qehly5" path="res://Characters/Player/player-texture-0.png" id="1_pjs31"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://du0ccnxelj5vv" path="res://Characters/Player/player-texture-0_n.png" id="4_ccfo4"]
 [ext_resource type="Texture2D" uid="uid://wk2l0sp5lfpk" path="res://Levels/Effects/fire.png" id="8_stp53"]
 [ext_resource type="Texture2D" uid="uid://dlunyinurblc6" path="res://Levels/Effects/fire_n.png" id="9_gewq2"]
+[ext_resource type="Script" path="res://Characters/Player/multiplayer_synchronizer.gd" id="10_xabqo"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_y1i87"]
 diffuse_texture = ExtResource("2_etpd3")
@@ -1035,12 +1036,16 @@ transitions = ["Start", "Idle", SubResource("AnimationNodeStateMachineTransition
 
 [sub_resource type="AnimationNodeStateMachinePlayback" id="AnimationNodeStateMachinePlayback_0q8lf"]
 
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_3i60n"]
+properties/0/path = NodePath(".:position")
+properties/0/spawn = true
+properties/0/sync = true
+
 [node name="Player" type="CharacterBody2D"]
 disable_mode = 2
 collision_mask = 16
 platform_on_leave = 2
 script = ExtResource("1_2oqu3")
-colored = Color(0.211765, 0.309804, 0.623529, 1)
 metadata/_edit_vertical_guides_ = [68.0, -68.0]
 
 [node name="TestBack" type="Sprite2D" parent="."]
@@ -1184,7 +1189,6 @@ position = Vector2(0, -10)
 shape = SubResource("RectangleShape2D_1npa8")
 
 [node name="Camera" type="Camera2D" parent="."]
-current = true
 limit_smoothed = true
 smoothing_enabled = true
 
@@ -1227,3 +1231,13 @@ scale = Vector2(-0.5, 0.5)
 texture = SubResource("CanvasTexture_bsxkb")
 region_enabled = true
 region_rect = Rect2(343, 51, 190, 117)
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+root_path = NodePath(".")
+replication_config = SubResource("SceneReplicationConfig_3i60n")
+script = ExtResource("10_xabqo")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "name"

@@ -1,18 +1,13 @@
 [gd_scene load_steps=2 format=3 uid="uid://c5haf1jwxvqtw"]
 
-[ext_resource type="Script" path="res://main.gd" id="1_ua5hm"]
+[ext_resource type="Script" path="res://main.gd" id="1_hhj8t"]
 
-[node name="Main" type="Control"]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-script = ExtResource("1_ua5hm")
+[node name="Main" type="Node2D"]
+script = ExtResource("1_hhj8t")
 
 [node name="Menu" type="VBoxContainer" parent="."]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 200.0
+offset_bottom = 113.0
 
 [node name="Port" type="LineEdit" parent="Menu"]
 layout_mode = 2
@@ -21,20 +16,30 @@ offset_bottom = 31.0
 text = "9999"
 placeholder_text = "Port"
 
-[node name="MaxPlayerCount" type="LineEdit" parent="Menu"]
-custom_minimum_size = Vector2i(200, 0)
+[node name="Join" type="Button" parent="Menu"]
 layout_mode = 2
 offset_top = 35.0
 offset_right = 200.0
 offset_bottom = 66.0
-text = "4"
-placeholder_text = "Max Player Input"
+text = "Join"
 
-[node name="Start" type="Button" parent="Menu"]
+[node name="Host" type="Button" parent="Menu"]
 layout_mode = 2
 offset_top = 70.0
 offset_right = 200.0
 offset_bottom = 101.0
-text = "START"
+text = "Host"
 
-[connection signal="pressed" from="Menu/Start" to="." method="_on_start_pressed"]
+[node name="ColorPickerButton" type="ColorPickerButton" parent="Menu"]
+layout_mode = 2
+offset_top = 105.0
+offset_right = 200.0
+offset_bottom = 113.0
+color = Color(1, 1, 1, 1)
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+_spawnable_scenes = PackedStringArray("res://Characters/Player/player.tscn")
+spawn_path = NodePath("..")
+
+[connection signal="pressed" from="Menu/Join" to="." method="_on_join_pressed"]
+[connection signal="pressed" from="Menu/Host" to="." method="_on_host_pressed"]
