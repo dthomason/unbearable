@@ -1,5 +1,8 @@
-Node2D
 Node
+Button
+CollisionShape2D
+Area2D
+Node2D
 Label
 ColorPickerButton
 MultiplayerSynchronizer

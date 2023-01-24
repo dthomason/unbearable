@@ -6611,7 +6611,6 @@ format = 2
 position = Vector2(1509, 1364)
 z_index = 1
 collision_layer = 33
-move_speed = 800.0
 metadata/_edit_vertical_guides_ = [68.0]
 
 [node name="AnimationTree" parent="Player" index="6"]

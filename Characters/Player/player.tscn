@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=3 uid="uid://dmwxsjaqt1df6"]
+[gd_scene load_steps=46 format=3 uid="uid://dmwxsjaqt1df6"]
 
 [ext_resource type="Script" path="res://Characters/Player/player.gd" id="1_2oqu3"]
 [ext_resource type="Texture2D" uid="uid://d26gn35qehly5" path="res://Characters/Player/player-texture-0.png" id="1_pjs31"]
@@ -1044,6 +1044,9 @@ properties/1/path = NodePath(".:x_transform")
 properties/1/spawn = true
 properties/1/sync = true
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_xwedf"]
+radius = 70.7406
+
 [node name="Player" type="CharacterBody2D"]
 disable_mode = 2
 collision_mask = 16
@@ -1179,7 +1182,7 @@ region_enabled = true
 region_rect = Rect2(123, 119, 41, 46)
 
 [node name="ShoulderRight" type="Sprite2D" parent="Body"]
-position = Vector2(-16, -68.6357)
+position = Vector2(-16, -68.2639)
 rotation = 0.00978184
 texture = SubResource("CanvasTexture_h8xy1")
 offset = Vector2(1.03587, 23.5372)
@@ -1241,11 +1244,35 @@ replication_config = SubResource("SceneReplicationConfig_3i60n")
 script = ExtResource("10_xabqo")
 
 [node name="PlayerName" type="Label" parent="."]
-offset_right = 40.0
-offset_bottom = 23.0
+offset_left = -19.0
+offset_top = -243.0
+offset_right = 25.0
+offset_bottom = -217.0
 text = "name"
 
 [node name="PlayerState" type="Label" parent="."]
-offset_right = 40.0
-offset_bottom = 23.0
-text = "name"
+offset_left = -17.0
+offset_top = -216.0
+offset_right = 27.0
+offset_bottom = -190.0
+text = "state
+"
+
+[node name="KillPlayer" type="Button" parent="."]
+visible = false
+offset_left = 412.0
+offset_top = 241.0
+offset_right = 504.0
+offset_bottom = 272.0
+text = "Kill Player?"
+
+[node name="KillZone" type="Area2D" parent="."]
+
+[node name="KillZoneCollider" type="CollisionShape2D" parent="KillZone"]
+position = Vector2(1, -94)
+scale = Vector2(3.44, 3.44)
+shape = SubResource("CircleShape2D_xwedf")
+
+[connection signal="pressed" from="KillPlayer" to="." method="_on_kill_player_pressed"]
+[connection signal="body_entered" from="KillZone" to="." method="_on_kill_zone_body_entered"]
+[connection signal="body_exited" from="KillZone" to="." method="_on_kill_zone_body_exited"]
