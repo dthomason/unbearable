@@ -1,0 +1,183 @@
+{
+	"textures": [
+		{
+			"image": "player_character.png",
+			"size": {
+				"w": 310,
+				"h": 118
+			},
+			"sprites": [
+				{
+					"filename": "face.png",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 104
+					},
+					"margin": {
+						"x": 5,
+						"y": 5,
+						"w": 10,
+						"h": 11
+					}
+				},
+				{
+					"filename": "right_eye.png",
+					"region": {
+						"x": 0,
+						"y": 108,
+						"w": 9,
+						"h": 9
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "left_eye.png",
+					"region": {
+						"x": 13,
+						"y": 108,
+						"w": 6,
+						"h": 8
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torso.png",
+					"region": {
+						"x": 104,
+						"y": 0,
+						"w": 83,
+						"h": 84
+					},
+					"margin": {
+						"x": 7,
+						"y": 7,
+						"w": 14,
+						"h": 14
+					}
+				},
+				{
+					"filename": "shadow.png",
+					"region": {
+						"x": 104,
+						"y": 88,
+						"w": 80,
+						"h": 30
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "arm_left.png",
+					"region": {
+						"x": 191,
+						"y": 0,
+						"w": 34,
+						"h": 61
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "leg_left.png",
+					"region": {
+						"x": 191,
+						"y": 65,
+						"w": 47,
+						"h": 49
+					},
+					"margin": {
+						"x": 7,
+						"y": 7,
+						"w": 14,
+						"h": 14
+					}
+				},
+				{
+					"filename": "leg_right.png",
+					"region": {
+						"x": 191,
+						"y": 65,
+						"w": 47,
+						"h": 49
+					},
+					"margin": {
+						"x": 7,
+						"y": 7,
+						"w": 14,
+						"h": 14
+					}
+				},
+				{
+					"filename": "arm_right.png",
+					"region": {
+						"x": 229,
+						"y": 0,
+						"w": 38,
+						"h": 59
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "tummy.png",
+					"region": {
+						"x": 242,
+						"y": 63,
+						"w": 44,
+						"h": 54
+					},
+					"margin": {
+						"x": 5,
+						"y": 5,
+						"w": 11,
+						"h": 11
+					}
+				},
+				{
+					"filename": "mouth.png",
+					"region": {
+						"x": 271,
+						"y": 0,
+						"w": 39,
+						"h": 33
+					},
+					"margin": {
+						"x": 6,
+						"y": 6,
+						"w": 12,
+						"h": 12
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:80567ec89b8ffbd9d0339e1cdddd5926:8941efff6e288d8e02765bcc457d0a61:7113507dfac1b50f7523895885d88c47$"
+	}
+}
