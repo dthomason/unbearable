@@ -97,13 +97,11 @@ func show_kill_button(body: CharacterBody2D):
 	return is_authority and is_killer and is_not_self
 	
 func _on_kill_zone_body_entered(body):
-	var is_server = multiplayer.is_server()
-	print("IS SERVER: " + str(is_server) + "Name: " + str(name))
-	
 	$KillPlayer.visible = show_kill_button(body)
 	
 	if str(body.name).to_int() != killer_id and body.is_multiplayer_authority():
 		kill_target = body
+		body.is_alive = false
 		
 func _on_kill_zone_body_exited(body):
 	$KillPlayer.visible = false
@@ -113,4 +111,4 @@ func _on_kill_player_pressed():
 
 func _on_animation_player_animation_finished(anim_name):
 	if anim_name == "Burn":
-		kill_target.queue_free()
+		kill_target.is_ghost = true
