@@ -11,22 +11,22 @@
 [ext_resource type="Texture2D" uid="uid://tlq0ylwcgbyh" path="res://Characters/Player/new_sprites/Player_build.png" id="10_0eh3r"]
 [ext_resource type="Script" path="res://Characters/Player/multiplayer_synchronizer.gd" id="10_xabqo"]
 
-[sub_resource type="CanvasTexture" id="CanvasTexture_ycol2"]
+[sub_resource type="CanvasTexture" id="CanvasTexture_owamn"]
 diffuse_texture = ExtResource("2_etpd3")
 normal_texture = ExtResource("3_kwlxk")
 
-[sub_resource type="CanvasTexture" id="CanvasTexture_voqk3"]
+[sub_resource type="CanvasTexture" id="CanvasTexture_krlcg"]
 diffuse_texture = ExtResource("5_qof4l")
 normal_texture = ExtResource("6_2qdcy")
 
-[sub_resource type="CanvasTexture" id="CanvasTexture_0r1k0"]
+[sub_resource type="CanvasTexture" id="CanvasTexture_mk1hd"]
 diffuse_texture = ExtResource("8_stp53")
 normal_texture = ExtResource("9_gewq2")
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_vqiej"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cfxcu"]
 size = Vector2(134, 21)
 
-[sub_resource type="Animation" id="Animation_w1gyn"]
+[sub_resource type="Animation" id="Animation_kxrpl"]
 resource_name = "Burn"
 length = 0.5
 tracks/0/type = "value"
@@ -198,7 +198,7 @@ tracks/13/keys = {
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_d43a3"]
+[sub_resource type="Animation" id="Animation_a3xri"]
 resource_name = "Idle"
 loop_mode = 1
 tracks/0/type = "value"
@@ -334,7 +334,7 @@ tracks/10/keys = {
 "values": [-0.0293223]
 }
 
-[sub_resource type="Animation" id="Animation_iu8wq"]
+[sub_resource type="Animation" id="Animation_b03j4"]
 resource_name = "NewBurn"
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -481,7 +481,7 @@ tracks/11/keys = {
 "values": [Color(1, 1, 1, 1), Color(0, 0, 0, 1)]
 }
 
-[sub_resource type="Animation" id="Animation_8fn6m"]
+[sub_resource type="Animation" id="Animation_st7we"]
 length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -784,7 +784,7 @@ tracks/24/keys = {
 "values": [Vector2(-27.5, -29.5)]
 }
 
-[sub_resource type="Animation" id="Animation_58tag"]
+[sub_resource type="Animation" id="Animation_7vr3r"]
 resource_name = "Walk"
 length = 0.6
 loop_mode = 1
@@ -862,16 +862,16 @@ tracks/5/keys = {
 "values": [Vector2(0, -2), Vector2(0, -10), Vector2(0, -2), Vector2(0, -10)]
 }
 
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_avwpx"]
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_sfkxw"]
 _data = {
-"Burn": SubResource("Animation_w1gyn"),
-"Idle": SubResource("Animation_d43a3"),
-"NewBurn": SubResource("Animation_iu8wq"),
-"RESET": SubResource("Animation_8fn6m"),
-"Walk": SubResource("Animation_58tag")
+"Burn": SubResource("Animation_kxrpl"),
+"Idle": SubResource("Animation_a3xri"),
+"NewBurn": SubResource("Animation_b03j4"),
+"RESET": SubResource("Animation_st7we"),
+"Walk": SubResource("Animation_7vr3r")
 }
 
-[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_8w3t7"]
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_ajmm2"]
 properties/0/path = NodePath(".:position")
 properties/0/spawn = true
 properties/0/sync = true
@@ -881,11 +881,8 @@ properties/1/sync = true
 properties/2/path = NodePath("../AnimationPlayer:current_animation")
 properties/2/spawn = true
 properties/2/sync = true
-properties/3/path = NodePath("..:is_alive")
-properties/3/spawn = true
-properties/3/sync = true
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_s05vu"]
+[sub_resource type="CircleShape2D" id="CircleShape2D_pf3xx"]
 radius = 70.7406
 
 [node name="Player" type="CharacterBody2D"]
@@ -898,7 +895,7 @@ metadata/_edit_vertical_guides_ = [68.0, -68.0]
 [node name="TestBack" type="Sprite2D" parent="."]
 visible = false
 position = Vector2(-476, -274)
-texture = SubResource("CanvasTexture_ycol2")
+texture = SubResource("CanvasTexture_owamn")
 
 [node name="PlayerLight" type="PointLight2D" parent="."]
 position = Vector2(2.91038e-11, -46)
@@ -916,7 +913,7 @@ position = Vector2(0, -2)
 [node name="Shadow" type="Sprite2D" parent="Body"]
 position = Vector2(-0.5, -22.5)
 rotation = -0.0293223
-texture = SubResource("CanvasTexture_voqk3")
+texture = SubResource("CanvasTexture_krlcg")
 offset = Vector2(-6, 21)
 region_enabled = true
 region_rect = Rect2(104, 88, 80, 30)
@@ -924,7 +921,7 @@ region_rect = Rect2(104, 88, 80, 30)
 [node name="ArmLeft" type="Sprite2D" parent="Body"]
 position = Vector2(7, -83)
 rotation = -0.523598
-texture = SubResource("CanvasTexture_voqk3")
+texture = SubResource("CanvasTexture_krlcg")
 offset = Vector2(0.221863, 21.7082)
 region_enabled = true
 region_rect = Rect2(191, 0, 34, 61)
@@ -932,20 +929,20 @@ region_rect = Rect2(191, 0, 34, 61)
 [node name="LegLeft" type="Sprite2D" parent="Body"]
 position = Vector2(2.5, -35.5)
 rotation = -0.0293223
-texture = SubResource("CanvasTexture_voqk3")
+texture = SubResource("CanvasTexture_krlcg")
 offset = Vector2(7.50589, 14.1229)
 region_enabled = true
 region_rect = Rect2(192, 66, 45, 47)
 
 [node name="Torso" type="Sprite2D" parent="Body"]
 position = Vector2(-9, -65)
-texture = SubResource("CanvasTexture_voqk3")
+texture = SubResource("CanvasTexture_krlcg")
 region_enabled = true
 region_rect = Rect2(105, 1, 81, 82)
 
 [node name="Tummy" type="Sprite2D" parent="Body/Torso"]
 position = Vector2(21, 13)
-texture = SubResource("CanvasTexture_voqk3")
+texture = SubResource("CanvasTexture_krlcg")
 region_enabled = true
 region_rect = Rect2(243, 65, 42, 51)
 
@@ -954,37 +951,37 @@ visible = false
 position = Vector2(0, -10.125)
 rotation = 3.14159
 scale = Vector2(0.5, -0.322072)
-texture = SubResource("CanvasTexture_0r1k0")
+texture = SubResource("CanvasTexture_mk1hd")
 region_enabled = true
 region_rect = Rect2(64, 0, 195, 111)
 
 [node name="Head" type="Sprite2D" parent="Body"]
 position = Vector2(-8, -134)
-texture = SubResource("CanvasTexture_voqk3")
+texture = SubResource("CanvasTexture_krlcg")
 region_enabled = true
 region_rect = Rect2(1, 2, 97, 101)
 
 [node name="EyeRight" type="Sprite2D" parent="Body/Head"]
 position = Vector2(9, 14)
-texture = SubResource("CanvasTexture_voqk3")
+texture = SubResource("CanvasTexture_krlcg")
 region_enabled = true
 region_rect = Rect2(0, 108, 9, 9)
 
 [node name="EyeLeft" type="Sprite2D" parent="Body/Head"]
 position = Vector2(35, 11)
-texture = SubResource("CanvasTexture_voqk3")
+texture = SubResource("CanvasTexture_krlcg")
 region_enabled = true
 region_rect = Rect2(13, 108, 6, 8)
 
 [node name="Mouth" type="Sprite2D" parent="Body/Head"]
 position = Vector2(23, 32)
-texture = SubResource("CanvasTexture_voqk3")
+texture = SubResource("CanvasTexture_krlcg")
 region_enabled = true
 region_rect = Rect2(272, 1, 37, 31)
 
 [node name="LegRight" type="Sprite2D" parent="Body"]
 position = Vector2(-27.5, -29.5)
-texture = SubResource("CanvasTexture_voqk3")
+texture = SubResource("CanvasTexture_krlcg")
 offset = Vector2(7.50589, 14.1229)
 region_enabled = true
 region_rect = Rect2(192, 66, 45, 47)
@@ -992,7 +989,7 @@ region_rect = Rect2(192, 66, 45, 47)
 [node name="ArmRight" type="Sprite2D" parent="Body"]
 position = Vector2(-29.5, -77.5)
 rotation = -0.0293223
-texture = SubResource("CanvasTexture_voqk3")
+texture = SubResource("CanvasTexture_krlcg")
 offset = Vector2(-6, 21)
 region_enabled = true
 region_rect = Rect2(229, 0, 38, 59)
@@ -1000,14 +997,14 @@ region_rect = Rect2(229, 0, 38, 59)
 [node name="Collision" type="CollisionShape2D" parent="."]
 show_behind_parent = true
 position = Vector2(0, -10)
-shape = SubResource("RectangleShape2D_vqiej")
+shape = SubResource("RectangleShape2D_cfxcu")
 
 [node name="Camera" type="Camera2D" parent="."]
 limit_smoothed = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_avwpx")
+"": SubResource("AnimationLibrary_sfkxw")
 }
 
 [node name="Effects" type="Node2D" parent="."]
@@ -1019,7 +1016,7 @@ visible = false
 visible = false
 position = Vector2(1.43051e-06, -160)
 scale = Vector2(0.6, 0.7)
-texture = SubResource("CanvasTexture_0r1k0")
+texture = SubResource("CanvasTexture_mk1hd")
 region_enabled = true
 region_rect = Rect2(638, 247, 240, 241)
 
@@ -1027,20 +1024,20 @@ region_rect = Rect2(638, 247, 240, 241)
 visible = false
 position = Vector2(0, -87)
 scale = Vector2(-0.58, 0.5)
-texture = SubResource("CanvasTexture_0r1k0")
+texture = SubResource("CanvasTexture_mk1hd")
 region_enabled = true
 region_rect = Rect2(945, 315, 266, 237)
 
 [node name="BurnFeet" type="Sprite2D" parent="Effects/Burn"]
 position = Vector2(0, -22)
 scale = Vector2(-0.5, 0.5)
-texture = SubResource("CanvasTexture_0r1k0")
+texture = SubResource("CanvasTexture_mk1hd")
 region_enabled = true
 region_rect = Rect2(343, 51, 190, 117)
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
 root_path = NodePath(".")
-replication_config = SubResource("SceneReplicationConfig_8w3t7")
+replication_config = SubResource("SceneReplicationConfig_ajmm2")
 script = ExtResource("10_xabqo")
 
 [node name="PlayerName" type="Label" parent="."]
@@ -1080,7 +1077,7 @@ visible = false
 [node name="KillZoneCollider" type="CollisionShape2D" parent="KillZone"]
 position = Vector2(1, -94)
 scale = Vector2(3.44, 3.44)
-shape = SubResource("CircleShape2D_s05vu")
+shape = SubResource("CircleShape2D_pf3xx")
 
 [node name="PlayerBuild" type="Sprite2D" parent="."]
 visible = false

@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://blnhxiwia4vo0"
+path="res://.godot/imported/tracks_tiles.tpsheet-0a9b3dc2d7ea1c1c9108db2feed96601.res"
+
+[deps]
+
+files=["res://Levels/Floor/tracks_tiles.sprites/circle_switch.tres", "res://Levels/Floor/tracks_tiles.sprites/bridge.tres", "res://Levels/Floor/tracks_tiles.sprites/track_horiz.tres", "res://Levels/Floor/tracks_tiles.sprites/track_vert.tres"]
+
+source_file="res://Levels/Floor/tracks_tiles.tpsheet"
+dest_files=["res://.godot/imported/tracks_tiles.tpsheet-0a9b3dc2d7ea1c1c9108db2feed96601.res", "res://Levels/Floor/tracks_tiles.sprites/circle_switch.tres", "res://Levels/Floor/tracks_tiles.sprites/bridge.tres", "res://Levels/Floor/tracks_tiles.sprites/track_horiz.tres", "res://Levels/Floor/tracks_tiles.sprites/track_vert.tres"]
+
+[params]
+

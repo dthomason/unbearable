@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://djxpbjxoalvhj"
+path="res://.godot/imported/carrt.tpsheet-18af6e54b49bc75c45ec5184acc233a8.res"
+
+[deps]
+
+files=["res://Levels/Objects/carrt.sprites/Cart.tres", "res://Levels/Objects/carrt.sprites/wheel.tres"]
+
+source_file="res://Levels/Objects/carrt.tpsheet"
+dest_files=["res://.godot/imported/carrt.tpsheet-18af6e54b49bc75c45ec5184acc233a8.res", "res://Levels/Objects/carrt.sprites/Cart.tres", "res://Levels/Objects/carrt.sprites/wheel.tres"]
+
+[params]
+

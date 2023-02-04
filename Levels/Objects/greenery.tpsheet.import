@@ -1,0 +1,14 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://j7pwkef7dr6b"
+path="res://.godot/imported/greenery.tpsheet-0f9004eb52f2ef72823666df9c3569ce.res"
+
+[deps]
+
+source_file="res://Levels/Objects/greenery.tpsheet"
+dest_files=["res://.godot/imported/greenery.tpsheet-0f9004eb52f2ef72823666df9c3569ce.res"]
+
+[params]
+

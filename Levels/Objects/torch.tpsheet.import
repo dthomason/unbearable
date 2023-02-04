@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://ckxwqrlpoox3u"
+path="res://.godot/imported/torch.tpsheet-334c7ad8d097ecf16d08a9eb0c5b8aa5.res"
+
+[deps]
+
+files=["res://Levels/Objects/torch.sprites/torch_pole.tres", "res://Levels/Objects/torch.sprites/torch_1.tres", "res://Levels/Objects/torch.sprites/torch_2.tres"]
+
+source_file="res://Levels/Objects/torch.tpsheet"
+dest_files=["res://.godot/imported/torch.tpsheet-334c7ad8d097ecf16d08a9eb0c5b8aa5.res", "res://Levels/Objects/torch.sprites/torch_pole.tres", "res://Levels/Objects/torch.sprites/torch_1.tres", "res://Levels/Objects/torch.sprites/torch_2.tres"]
+
+[params]
+

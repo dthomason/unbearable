@@ -11,7 +11,8 @@ var excluded_from_coloring : Array[String] = [ "Shadow", "Mouth", "EyeRight", "E
 var input_direction : Vector2 = Vector2.ZERO
 var look_direction = Vector2(1,0)
 var move_speed : float = 600.0
-@export var kill_target : CharacterBody2D
+var kill_target : CharacterBody2D
+var is_ghost = false
 
 @export var is_alive : bool = true
 @export var player_color : Color = Color(1,1,1)
@@ -30,7 +31,7 @@ var player_id : int
 func _ready():
 	label_name.text = "Name: " + str(name)
 	sync.set_multiplayer_authority(str(name).to_int())
-	camera.current = sync.is_multiplayer_authority()
+	camera.enabled = sync.is_multiplayer_authority()
 	label_state.text = "Server: " + str(multiplayer.is_server())
 	label_multi.text = "Authority: " + str(sync.is_multiplayer_authority())
 	var instance = multiplayer.get_instance_id()
@@ -47,14 +48,16 @@ func _physics_process(_delta):
 	if sync.is_multiplayer_authority():
 		
 		input_direction = get_input_direction()
+		set_look_direction(look_direction * input_direction)
 		
 		if input_direction != Vector2.ZERO and is_alive:
-			set_look_direction(look_direction * input_direction)
 			anim_state.play("Walk")
 		if input_direction == Vector2.ZERO and is_alive:
 			anim_state.play("Idle")
 		if not is_alive:
 			anim_state.play("Burn")
+		if not is_alive and is_ghost:
+			anim_state.play("Ghost")
 			
 		# Sync for Multi Player
 		global_position += input_direction.normalized()
@@ -66,9 +69,6 @@ func _physics_process(_delta):
 		# Actually move character
 		move_and_slide()
 	
-	if not is_alive and str(name).to_int() != killer_id:
-		anim_state.play("Burn")
-		
 
 func get_special_keys():
 	if Input.is_action_pressed("effect_tester"):

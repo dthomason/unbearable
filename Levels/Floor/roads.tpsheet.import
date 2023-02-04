@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://deim1jvv1iuru"
+path="res://.godot/imported/roads.tpsheet-c30e9faa0b2f0816dcd362cdc3b2d6cf.res"
+
+[deps]
+
+files=["res://Levels/Floor/roads.sprites/road_zig_vert.tres", "res://Levels/Floor/roads.sprites/road_circle.tres", "res://Levels/Floor/roads.sprites/road_zig_horiz.tres", "res://Levels/Floor/roads.sprites/road_vert.tres", "res://Levels/Floor/roads.sprites/road_horiz.tres"]
+
+source_file="res://Levels/Floor/roads.tpsheet"
+dest_files=["res://.godot/imported/roads.tpsheet-c30e9faa0b2f0816dcd362cdc3b2d6cf.res", "res://Levels/Floor/roads.sprites/road_zig_vert.tres", "res://Levels/Floor/roads.sprites/road_circle.tres", "res://Levels/Floor/roads.sprites/road_zig_horiz.tres", "res://Levels/Floor/roads.sprites/road_vert.tres", "res://Levels/Floor/roads.sprites/road_horiz.tres"]
+
+[params]
+
