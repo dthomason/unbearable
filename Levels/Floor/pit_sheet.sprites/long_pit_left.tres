@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bor6sbia6iapj"]
+
+[ext_resource type="Texture2D" uid="uid://b8s88rgkkaku0" path="res://Levels/Floor/pit_sheet.png" id="1_uwe46"]
+
+[resource]
+atlas = ExtResource("1_uwe46")
+region = Rect2(1, 1, 1280, 320)

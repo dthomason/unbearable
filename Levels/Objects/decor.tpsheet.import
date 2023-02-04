@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://p4otbn30ip7i"
+path="res://.godot/imported/decor.tpsheet-f13f875cc30fcc370697d6ce5695bf31.res"
+
+[deps]
+
+files=["res://Levels/Objects/decor.sprites/decor_18.tres", "res://Levels/Objects/decor.sprites/decor_20.tres", "res://Levels/Objects/decor.sprites/decor_2.tres", "res://Levels/Objects/decor.sprites/decor_15.tres", "res://Levels/Objects/decor.sprites/decor_v2_1.tres", "res://Levels/Objects/decor.sprites/decor_14.tres", "res://Levels/Objects/decor.sprites/decor_17.tres", "res://Levels/Objects/decor.sprites/decor_11.tres", "res://Levels/Objects/decor.sprites/decor_6.tres", "res://Levels/Objects/decor.sprites/decor_13.tres", "res://Levels/Objects/decor.sprites/decor_16.tres", "res://Levels/Objects/decor.sprites/decor_v2_2.tres", "res://Levels/Objects/decor.sprites/decor_19.tres", "res://Levels/Objects/decor.sprites/decor_5.tres", "res://Levels/Objects/decor.sprites/decor_3.tres", "res://Levels/Objects/decor.sprites/decor_v2_7.tres", "res://Levels/Objects/decor.sprites/decor_9.tres", "res://Levels/Objects/decor.sprites/decor_7.tres", "res://Levels/Objects/decor.sprites/decor_1.tres", "res://Levels/Objects/decor.sprites/decor_12.tres", "res://Levels/Objects/decor.sprites/decor_v2_3.tres", "res://Levels/Objects/decor.sprites/decor_10.tres", "res://Levels/Objects/decor.sprites/decor_4.tres", "res://Levels/Objects/decor.sprites/decor_v2_4.tres", "res://Levels/Objects/decor.sprites/decor_v2_6.tres", "res://Levels/Objects/decor.sprites/decor_8.tres", "res://Levels/Objects/decor.sprites/decor_v2_5.tres"]
+
+source_file="res://Levels/Objects/decor.tpsheet"
+dest_files=["res://.godot/imported/decor.tpsheet-f13f875cc30fcc370697d6ce5695bf31.res", "res://Levels/Objects/decor.sprites/decor_18.tres", "res://Levels/Objects/decor.sprites/decor_20.tres", "res://Levels/Objects/decor.sprites/decor_2.tres", "res://Levels/Objects/decor.sprites/decor_15.tres", "res://Levels/Objects/decor.sprites/decor_v2_1.tres", "res://Levels/Objects/decor.sprites/decor_14.tres", "res://Levels/Objects/decor.sprites/decor_17.tres", "res://Levels/Objects/decor.sprites/decor_11.tres", "res://Levels/Objects/decor.sprites/decor_6.tres", "res://Levels/Objects/decor.sprites/decor_13.tres", "res://Levels/Objects/decor.sprites/decor_16.tres", "res://Levels/Objects/decor.sprites/decor_v2_2.tres", "res://Levels/Objects/decor.sprites/decor_19.tres", "res://Levels/Objects/decor.sprites/decor_5.tres", "res://Levels/Objects/decor.sprites/decor_3.tres", "res://Levels/Objects/decor.sprites/decor_v2_7.tres", "res://Levels/Objects/decor.sprites/decor_9.tres", "res://Levels/Objects/decor.sprites/decor_7.tres", "res://Levels/Objects/decor.sprites/decor_1.tres", "res://Levels/Objects/decor.sprites/decor_12.tres", "res://Levels/Objects/decor.sprites/decor_v2_3.tres", "res://Levels/Objects/decor.sprites/decor_10.tres", "res://Levels/Objects/decor.sprites/decor_4.tres", "res://Levels/Objects/decor.sprites/decor_v2_4.tres", "res://Levels/Objects/decor.sprites/decor_v2_6.tres", "res://Levels/Objects/decor.sprites/decor_8.tres", "res://Levels/Objects/decor.sprites/decor_v2_5.tres"]
+
+[params]
+

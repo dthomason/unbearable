@@ -21,7 +21,7 @@ window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PackedStringArray("res://addons/codeandweb.texturepacker/plugin.cfg")
 
 [input]
 

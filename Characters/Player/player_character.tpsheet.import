@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://ckv4pmfsb8mpb"
+path="res://.godot/imported/player_character.tpsheet-0b80652f4c33d83aa19e40dc68cb5447.res"
+
+[deps]
+
+files=["res://Characters/Player/player_character.sprites/face.tres", "res://Characters/Player/player_character.sprites/right_eye.tres", "res://Characters/Player/player_character.sprites/left_eye.tres", "res://Characters/Player/player_character.sprites/torso.tres", "res://Characters/Player/player_character.sprites/shadow.tres", "res://Characters/Player/player_character.sprites/arm_left.tres", "res://Characters/Player/player_character.sprites/leg_left.tres", "res://Characters/Player/player_character.sprites/leg_right.tres", "res://Characters/Player/player_character.sprites/arm_right.tres", "res://Characters/Player/player_character.sprites/tummy.tres", "res://Characters/Player/player_character.sprites/mouth.tres"]
+
+source_file="res://Characters/Player/player_character.tpsheet"
+dest_files=["res://.godot/imported/player_character.tpsheet-0b80652f4c33d83aa19e40dc68cb5447.res", "res://Characters/Player/player_character.sprites/face.tres", "res://Characters/Player/player_character.sprites/right_eye.tres", "res://Characters/Player/player_character.sprites/left_eye.tres", "res://Characters/Player/player_character.sprites/torso.tres", "res://Characters/Player/player_character.sprites/shadow.tres", "res://Characters/Player/player_character.sprites/arm_left.tres", "res://Characters/Player/player_character.sprites/leg_left.tres", "res://Characters/Player/player_character.sprites/leg_right.tres", "res://Characters/Player/player_character.sprites/arm_right.tres", "res://Characters/Player/player_character.sprites/tummy.tres", "res://Characters/Player/player_character.sprites/mouth.tres"]
+
+[params]
+

@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://bpxaob04ig1h3"
+path="res://.godot/imported/cave_wall.tpsheet-4884ad6e66bbf7cd040e7322d98fe77d.res"
+
+[deps]
+
+files=["res://Levels/Walls/cave_wall.sprites/cave_bent_1.tres", "res://Levels/Walls/cave_wall.sprites/cave_enter_st8_w.tres", "res://Levels/Walls/cave_wall.sprites/cave_enter_side_L.tres", "res://Levels/Walls/cave_wall.sprites/cave_bent_2.tres", "res://Levels/Walls/cave_wall.sprites/cave_enter_side_R.tres", "res://Levels/Walls/cave_wall.sprites/cave_enter_st8.tres", "res://Levels/Walls/cave_wall.sprites/cave_wall_1.tres", "res://Levels/Walls/cave_wall.sprites/cave_wall_2.tres", "res://Levels/Walls/cave_wall.sprites/cave_wall_2_2.tres"]
+
+source_file="res://Levels/Walls/cave_wall.tpsheet"
+dest_files=["res://.godot/imported/cave_wall.tpsheet-4884ad6e66bbf7cd040e7322d98fe77d.res", "res://Levels/Walls/cave_wall.sprites/cave_bent_1.tres", "res://Levels/Walls/cave_wall.sprites/cave_enter_st8_w.tres", "res://Levels/Walls/cave_wall.sprites/cave_enter_side_L.tres", "res://Levels/Walls/cave_wall.sprites/cave_bent_2.tres", "res://Levels/Walls/cave_wall.sprites/cave_enter_side_R.tres", "res://Levels/Walls/cave_wall.sprites/cave_enter_st8.tres", "res://Levels/Walls/cave_wall.sprites/cave_wall_1.tres", "res://Levels/Walls/cave_wall.sprites/cave_wall_2.tres", "res://Levels/Walls/cave_wall.sprites/cave_wall_2_2.tres"]
+
+[params]
+

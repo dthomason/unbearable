@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dh3cbp44kn1rb"]
+
+[ext_resource type="Texture2D" uid="uid://bjpfwahj5bom3" path="res://Levels/Floor/roads-0.png" id="1_x17b4"]
+
+[resource]
+atlas = ExtResource("1_x17b4")
+region = Rect2(0, 0, 448, 896)
+margin = Rect2(0, 0, -32, -4)

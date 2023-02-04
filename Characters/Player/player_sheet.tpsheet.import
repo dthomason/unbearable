@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://bvy0d0u65gjfn"
+path="res://.godot/imported/player_sheet.tpsheet-9835e81ac7dc9c4a539a36c5aa36d6d6.res"
+
+[deps]
+
+files=["res://Characters/Player/player_sheet.sprites/head@0.4x.tres", "res://Characters/Player/player_sheet.sprites/torso@0.4x.tres", "res://Characters/Player/player_sheet.sprites/leg_left@0.4x.tres", "res://Characters/Player/player_sheet.sprites/leg_right@0.4x.tres", "res://Characters/Player/player_sheet.sprites/tummy@0.4x.tres", "res://Characters/Player/player_sheet.sprites/arm_left@0.4x.tres", "res://Characters/Player/player_sheet.sprites/arm_right@0.4x.tres", "res://Characters/Player/player_sheet.sprites/face@0.4x.tres", "res://Characters/Player/player_sheet.sprites/arm_holding_right@0.4x.tres", "res://Characters/Player/player_sheet.sprites/ear_left@0.4x.tres", "res://Characters/Player/player_sheet.sprites/ear_right@0.4x.tres", "res://Characters/Player/player_sheet.sprites/brow_right@0.4x.tres", "res://Characters/Player/player_sheet.sprites/brow_left@0.4x.tres", "res://Characters/Player/player_sheet.sprites/eye_closed@0.4x.tres", "res://Characters/Player/player_sheet.sprites/eye_squint@0.4x.tres", "res://Characters/Player/player_sheet.sprites/eye_right@0.4x.tres", "res://Characters/Player/player_sheet.sprites/eye_left@0.4x.tres"]
+
+source_file="res://Characters/Player/player_sheet.tpsheet"
+dest_files=["res://.godot/imported/player_sheet.tpsheet-9835e81ac7dc9c4a539a36c5aa36d6d6.res", "res://Characters/Player/player_sheet.sprites/head@0.4x.tres", "res://Characters/Player/player_sheet.sprites/torso@0.4x.tres", "res://Characters/Player/player_sheet.sprites/leg_left@0.4x.tres", "res://Characters/Player/player_sheet.sprites/leg_right@0.4x.tres", "res://Characters/Player/player_sheet.sprites/tummy@0.4x.tres", "res://Characters/Player/player_sheet.sprites/arm_left@0.4x.tres", "res://Characters/Player/player_sheet.sprites/arm_right@0.4x.tres", "res://Characters/Player/player_sheet.sprites/face@0.4x.tres", "res://Characters/Player/player_sheet.sprites/arm_holding_right@0.4x.tres", "res://Characters/Player/player_sheet.sprites/ear_left@0.4x.tres", "res://Characters/Player/player_sheet.sprites/ear_right@0.4x.tres", "res://Characters/Player/player_sheet.sprites/brow_right@0.4x.tres", "res://Characters/Player/player_sheet.sprites/brow_left@0.4x.tres", "res://Characters/Player/player_sheet.sprites/eye_closed@0.4x.tres", "res://Characters/Player/player_sheet.sprites/eye_squint@0.4x.tres", "res://Characters/Player/player_sheet.sprites/eye_right@0.4x.tres", "res://Characters/Player/player_sheet.sprites/eye_left@0.4x.tres"]
+
+[params]
+

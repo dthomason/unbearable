@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://8bpcvd8ndaua"
+path="res://.godot/imported/cave_wall.tpsheet-34432bc324a2582c362b64eca7000c8b.res"
+
+[deps]
+
+files=["res://Levels/Objects/cave_wall.sprites/cave_wall_left.tres", "res://Levels/Objects/cave_wall.sprites/cave_wall_1.tres", "res://Levels/Objects/cave_wall.sprites/cave_wall_right.tres", "res://Levels/Objects/cave_wall.sprites/cave_wall_2.tres", "res://Levels/Objects/cave_wall.sprites/cave_enter_left_w.tres", "res://Levels/Objects/cave_wall.sprites/cave_enter_right_w.tres", "res://Levels/Objects/cave_wall.sprites/cave_enter_st8_w.tres", "res://Levels/Objects/cave_wall.sprites/cave_enter_st8.tres", "res://Levels/Objects/cave_wall.sprites/cave_enter_left.tres", "res://Levels/Objects/cave_wall.sprites/cave_enter_right.tres"]
+
+source_file="res://Levels/Objects/cave_wall.tpsheet"
+dest_files=["res://.godot/imported/cave_wall.tpsheet-34432bc324a2582c362b64eca7000c8b.res", "res://Levels/Objects/cave_wall.sprites/cave_wall_left.tres", "res://Levels/Objects/cave_wall.sprites/cave_wall_1.tres", "res://Levels/Objects/cave_wall.sprites/cave_wall_right.tres", "res://Levels/Objects/cave_wall.sprites/cave_wall_2.tres", "res://Levels/Objects/cave_wall.sprites/cave_enter_left_w.tres", "res://Levels/Objects/cave_wall.sprites/cave_enter_right_w.tres", "res://Levels/Objects/cave_wall.sprites/cave_enter_st8_w.tres", "res://Levels/Objects/cave_wall.sprites/cave_enter_st8.tres", "res://Levels/Objects/cave_wall.sprites/cave_enter_left.tres", "res://Levels/Objects/cave_wall.sprites/cave_enter_right.tres"]
+
+[params]
+

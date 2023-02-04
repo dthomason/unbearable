@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://dpq2qgth2mew4"
+path="res://.godot/imported/floor_stone.tpsheet-866ea3223e50ce1fc5208a8cc2b2aa98.res"
+
+[deps]
+
+files=["res://Levels/Floor/floor_stone.sprites/land.tres"]
+
+source_file="res://Levels/Floor/floor_stone.tpsheet"
+dest_files=["res://.godot/imported/floor_stone.tpsheet-866ea3223e50ce1fc5208a8cc2b2aa98.res", "res://Levels/Floor/floor_stone.sprites/land.tres"]
+
+[params]
+

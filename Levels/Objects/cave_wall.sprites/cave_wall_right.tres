@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://pjw2klr48e32"]
+
+[ext_resource type="Texture2D" uid="uid://cj7mtmi2p142g" path="res://Levels/Objects/cave_wall.png" id="1_1mfag"]
+
+[resource]
+atlas = ExtResource("1_1mfag")
+region = Rect2(576, 0, 576, 640)
+margin = Rect2(0, 0, -62, -47)

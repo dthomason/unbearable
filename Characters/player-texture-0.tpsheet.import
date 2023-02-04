@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://dn5ida364dlnw"
+path="res://.godot/imported/player-texture-0.tpsheet-f7aa9e2cf60903fb479f67039e3c5a55.res"
+
+[deps]
+
+files=["res://Characters/player-texture-0.sprites/player-texture-0.tres", "res://Characters/player-texture-0.sprites/right_arm.tres", "res://Characters/player-texture-0.sprites/left_arm.tres"]
+
+source_file="res://Characters/player-texture-0.tpsheet"
+dest_files=["res://.godot/imported/player-texture-0.tpsheet-f7aa9e2cf60903fb479f67039e3c5a55.res", "res://Characters/player-texture-0.sprites/player-texture-0.tres", "res://Characters/player-texture-0.sprites/right_arm.tres", "res://Characters/player-texture-0.sprites/left_arm.tres"]
+
+[params]
+

@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://dqff7dq8hatt8"
+path="res://.godot/imported/wall_stone.tpsheet-da1fe8cceed297a8859bce045424b2bc.res"
+
+[deps]
+
+files=["res://Levels/Walls/wall_stone.sprites/wall_1.tres", "res://Levels/Walls/wall_stone.sprites/wall_5.tres", "res://Levels/Walls/wall_stone.sprites/wall_6.tres", "res://Levels/Walls/wall_stone.sprites/wall_8.tres", "res://Levels/Walls/wall_stone.sprites/wall_11.tres", "res://Levels/Walls/wall_stone.sprites/wall_12.tres", "res://Levels/Walls/wall_stone.sprites/wall_9.tres", "res://Levels/Walls/wall_stone.sprites/wall_4.tres", "res://Levels/Walls/wall_stone.sprites/wall_10.tres", "res://Levels/Walls/wall_stone.sprites/wall_2.tres", "res://Levels/Walls/wall_stone.sprites/wall_3.tres", "res://Levels/Walls/wall_stone.sprites/wall_7.tres", "res://Levels/Walls/wall_stone.sprites/wall_13.tres", "res://Levels/Walls/wall_stone.sprites/wall_14.tres"]
+
+source_file="res://Levels/Walls/wall_stone.tpsheet"
+dest_files=["res://.godot/imported/wall_stone.tpsheet-da1fe8cceed297a8859bce045424b2bc.res", "res://Levels/Walls/wall_stone.sprites/wall_1.tres", "res://Levels/Walls/wall_stone.sprites/wall_5.tres", "res://Levels/Walls/wall_stone.sprites/wall_6.tres", "res://Levels/Walls/wall_stone.sprites/wall_8.tres", "res://Levels/Walls/wall_stone.sprites/wall_11.tres", "res://Levels/Walls/wall_stone.sprites/wall_12.tres", "res://Levels/Walls/wall_stone.sprites/wall_9.tres", "res://Levels/Walls/wall_stone.sprites/wall_4.tres", "res://Levels/Walls/wall_stone.sprites/wall_10.tres", "res://Levels/Walls/wall_stone.sprites/wall_2.tres", "res://Levels/Walls/wall_stone.sprites/wall_3.tres", "res://Levels/Walls/wall_stone.sprites/wall_7.tres", "res://Levels/Walls/wall_stone.sprites/wall_13.tres", "res://Levels/Walls/wall_stone.sprites/wall_14.tres"]
+
+[params]
+

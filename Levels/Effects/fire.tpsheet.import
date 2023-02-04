@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://dccpchg5426vi"
+path="res://.godot/imported/fire.tpsheet-81d7b6623e3f8d8423bc6e2c444e7c76.res"
+
+[deps]
+
+files=["res://Levels/Effects/fire.sprites/1_effect_fire_018.tres", "res://Levels/Effects/fire.sprites/decor_3.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_004.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_017.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_002.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_003.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_014.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_015.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_016.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_000.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_001.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_005.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_006.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_007.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_008.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_009.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_010.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_011.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_012.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_013.tres"]
+
+source_file="res://Levels/Effects/fire.tpsheet"
+dest_files=["res://.godot/imported/fire.tpsheet-81d7b6623e3f8d8423bc6e2c444e7c76.res", "res://Levels/Effects/fire.sprites/1_effect_fire_018.tres", "res://Levels/Effects/fire.sprites/decor_3.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_004.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_017.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_002.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_003.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_014.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_015.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_016.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_000.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_001.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_005.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_006.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_007.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_008.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_009.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_010.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_011.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_012.tres", "res://Levels/Effects/fire.sprites/1_effect_fire_013.tres"]
+
+[params]
+

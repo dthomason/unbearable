@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bh02w862ltxms"]
+
+[ext_resource type="Texture2D" uid="uid://sjgyoq4052m3" path="res://Levels/Floor/tracks_tiles.png" id="1_lbr53"]
+
+[resource]
+atlas = ExtResource("1_lbr53")
+region = Rect2(0, 448, 384, 448)
+margin = Rect2(0, 0, 0, -63)

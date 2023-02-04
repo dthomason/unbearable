@@ -1,0 +1,8 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dwbssvwv2wngi"]
+
+[ext_resource type="Texture2D" uid="uid://wk2l0sp5lfpk" path="res://Levels/Effects/fire.png" id="1_ifhnh"]
+
+[resource]
+atlas = ExtResource("1_ifhnh")
+region = Rect2(1600, 256, 384, 320)
+margin = Rect2(0, 768, 71, 879)

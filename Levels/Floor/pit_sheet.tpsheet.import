@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://dww16oyj1npth"
+path="res://.godot/imported/pit_sheet.tpsheet-6bcf95192c3afe9a4b48773f96d060de.res"
+
+[deps]
+
+files=["res://Levels/Floor/pit_sheet.sprites/long_pit_left.tres", "res://Levels/Floor/pit_sheet.sprites/top_corner_pit_left.tres", "res://Levels/Floor/pit_sheet.sprites/long_pit_right.tres", "res://Levels/Floor/pit_sheet.sprites/center_pit_left.tres", "res://Levels/Floor/pit_sheet.sprites/center_pit_right.tres", "res://Levels/Floor/pit_sheet.sprites/top_corner_pit_right.tres"]
+
+source_file="res://Levels/Floor/pit_sheet.tpsheet"
+dest_files=["res://.godot/imported/pit_sheet.tpsheet-6bcf95192c3afe9a4b48773f96d060de.res", "res://Levels/Floor/pit_sheet.sprites/long_pit_left.tres", "res://Levels/Floor/pit_sheet.sprites/top_corner_pit_left.tres", "res://Levels/Floor/pit_sheet.sprites/long_pit_right.tres", "res://Levels/Floor/pit_sheet.sprites/center_pit_left.tres", "res://Levels/Floor/pit_sheet.sprites/center_pit_right.tres", "res://Levels/Floor/pit_sheet.sprites/top_corner_pit_right.tres"]
+
+[params]
+
