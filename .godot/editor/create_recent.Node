@@ -1,9 +1,9 @@
-Sprite2D
+Node2D
 Node
+Sprite2D
 Button
 CollisionShape2D
 Area2D
-Node2D
 Label
 ColorPickerButton
 MultiplayerSynchronizer

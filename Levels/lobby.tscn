@@ -1,5 +1,6 @@
-[gd_scene load_steps=11 format=3 uid="uid://nx0a5n3swbuh"]
+[gd_scene load_steps=12 format=3 uid="uid://nx0a5n3swbuh"]
 
+[ext_resource type="Script" path="res://Levels/lobby.gd" id="1_41pim"]
 [ext_resource type="Texture2D" uid="uid://h6evc4oxpg0o" path="res://Levels/Walls/wall_stone.png" id="1_hy6rs"]
 [ext_resource type="Texture2D" uid="uid://bceysm5ar0yax" path="res://Levels/Walls/wall_stone_n.png" id="2_ad5jr"]
 [ext_resource type="Texture2D" uid="uid://ck7wwt6f7qp6r" path="res://Levels/Floor/floor_stone.png" id="3_5i2jm"]
@@ -468,6 +469,7 @@ sources/0 = SubResource("TileSetAtlasSource_wvc7l")
 sources/2 = SubResource("TileSetAtlasSource_syp8n")
 
 [node name="Lobby" type="Node2D"]
+script = ExtResource("1_41pim")
 metadata/_edit_vertical_guides_ = [960.0]
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -493,9 +495,9 @@ height = 408.0
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
 color = Color(0.627451, 0.627451, 0.627451, 1)
 
+[node name="Players" type="Node2D" parent="."]
+
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
 _spawnable_scenes = PackedStringArray("res://Characters/Player/player.tscn")
-spawn_path = NodePath("../SpawnNode")
+spawn_path = NodePath("../Players")
 spawn_limit = 4
-
-[node name="SpawnNode" type="Node" parent="."]
