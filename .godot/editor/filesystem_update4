@@ -1,4 +1,4 @@
-res://Characters/Player/player.tscn
-res://Characters/Player/player.gd
 res://Levels/Level01.tscn
 res://main.tscn
+res://Characters/Player/player.tscn
+res://Characters/Player/player.gd

@@ -1,0 +1,16 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+uid="uid://bmi3u1mh5x8q6"
+path="res://.godot/imported/ghost.tpsheet-9ac1ad90d17e866cc285fbbf9a93c164.res"
+
+[deps]
+
+files=["res://Characters/Player/ghost.sprites/Ghost_build_1.tres", "res://Characters/Player/ghost.sprites/Ghost_build_2.tres"]
+
+source_file="res://Characters/Player/ghost.tpsheet"
+dest_files=["res://.godot/imported/ghost.tpsheet-9ac1ad90d17e866cc285fbbf9a93c164.res", "res://Characters/Player/ghost.sprites/Ghost_build_1.tres", "res://Characters/Player/ghost.sprites/Ghost_build_2.tres"]
+
+[params]
+

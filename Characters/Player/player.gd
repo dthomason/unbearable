@@ -20,7 +20,7 @@ var is_ghost = false
 var killer_id : int = 1
 var player_id : int
 
-@onready @export var anim_state = $AnimationPlayer
+@onready var anim_state = $AnimationPlayer
 @onready var body_parts = $Body
 @onready var camera : Camera2D = $Camera
 @onready var label_name : Label = $PlayerName
@@ -30,7 +30,7 @@ var player_id : int
 
 func _ready():
 	label_name.text = "Name: " + str(name)
-	sync.set_multiplayer_authority(str(name).to_int())
+	set_multiplayer_authority(str(name).to_int())
 	camera.enabled = sync.is_multiplayer_authority()
 	label_state.text = "Server: " + str(multiplayer.is_server())
 	label_multi.text = "Authority: " + str(sync.is_multiplayer_authority())
