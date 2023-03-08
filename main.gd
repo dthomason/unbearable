@@ -34,7 +34,6 @@ func _on_host_pressed():
 		return
 	
 	multiplayer.multiplayer_peer = peer
-#	peer.peer_connected.connect(func(id): add_player(id))
 	start_game()
 
 func start_game():

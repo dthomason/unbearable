@@ -35,13 +35,10 @@ var player_id : int
 		# Give authority over the player input to the appropriate peer.
 #		$PlayerInput.set_multiplayer_authority(id)
 
-func _enter_tree():
-	set_multiplayer_authority(str(name).to_int())
-
 func _ready():
-	if not is_multiplayer_authority(): return
+	set_multiplayer_authority(str(name).to_int())
 	label_name.text = "Name: " + str(name)
-	camera.enabled = true
+	camera.enabled = is_multiplayer_authority()
 	
 func set_color(color: Color, body = body_parts, exclude = excluded_from_coloring):
 	if sync.is_multiplayer_authority():
@@ -92,11 +89,17 @@ func get_input_direction():
 		Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 		Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
 	).normalized()
+	
+func get_look_direction(value):
+	if value < 0:
+		return -1
+	else:
+		return 1
 
 func set_look_direction(value):
 	if not value.x:
 		return
-	var new_look_direction = Vector2(value.x, 0)
+	var new_look_direction = Vector2(get_look_direction(value.x), 0)
 	sync.x_transform = new_look_direction
 	body_parts.transform.x = new_look_direction
 

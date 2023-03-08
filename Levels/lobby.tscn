@@ -496,6 +496,7 @@ height = 408.0
 color = Color(0.627451, 0.627451, 0.627451, 1)
 
 [node name="Players" type="Node2D" parent="."]
+y_sort_enabled = true
 
 [node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
 _spawnable_scenes = PackedStringArray("res://Characters/Player/player.tscn")
