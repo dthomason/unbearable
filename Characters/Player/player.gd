@@ -38,7 +38,7 @@ var player_id : int
 func _ready():
 	set_multiplayer_authority(str(name).to_int())
 	label_name.text = "Name: " + str(name)
-	camera.enabled = is_multiplayer_authority()
+#	camera.enabled = is_multiplayer_authority()
 	
 func set_color(color: Color, body = body_parts, exclude = excluded_from_coloring):
 	if sync.is_multiplayer_authority():
@@ -66,10 +66,6 @@ func _physics_process(_delta):
 		# Hold off for now
 #		anim_state.play("Ghost")
 		
-	# Sync for Multi Player
-	global_position += input_direction
-	sync.position = global_position
-
 	# Update velocity
 	velocity = input_direction * move_speed
 
@@ -109,6 +105,9 @@ func show_kill_button(body: CharacterBody2D):
 	var is_not_self = self.name != body.name
 	
 	return is_authority and is_killer and is_not_self
+	
+func show_start_button():
+	return true
 	
 func _on_kill_zone_body_entered(body):
 	$KillPlayer.visible = show_kill_button(body)

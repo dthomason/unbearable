@@ -1,6 +1,9 @@
+res://Levels/lobby.tscn
+res://Levels/lobby.gd
 res://Levels/Level01.tscn
 res://main.tscn
 res://Characters/Player/player.tscn
-res://Levels/lobby.tscn
-res://Characters/Player/player.gd
+res://players.gd
 res://main.gd
+res://Characters/Player/player.gd
+res://Characters/Player/multiplayer_synchronizer.gd

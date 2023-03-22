@@ -1168,13 +1168,13 @@ _data = {
 }
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_h81k7"]
-properties/0/path = NodePath(".:position")
+properties/0/path = NodePath(".:x_transform")
 properties/0/spawn = true
 properties/0/sync = true
-properties/1/path = NodePath(".:x_transform")
+properties/1/path = NodePath("../AnimationPlayer:current_animation")
 properties/1/spawn = true
 properties/1/sync = true
-properties/2/path = NodePath("../AnimationPlayer:current_animation")
+properties/2/path = NodePath("..:position")
 properties/2/spawn = true
 properties/2/sync = true
 
@@ -1182,6 +1182,7 @@ properties/2/sync = true
 radius = 70.7406
 
 [node name="Player" type="CharacterBody2D"]
+scale = Vector2(0.75, 0.75)
 disable_mode = 2
 collision_mask = 16
 platform_on_leave = 2

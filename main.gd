@@ -1,7 +1,7 @@
 extends Node2D
 
-var player_count = 0
-
+var lobby = "res://Levels/lobby.tscn"
+var level1 = "res://Levels/Level01.tscn"
 
 func _ready():
 		# Start paused.
@@ -17,14 +17,27 @@ func _ready():
 func _on_join_pressed():
 	var peer = ENetMultiplayerPeer.new()
 	var port = str($Menu/Port.text).to_int()
+	var player_color = $Menu/ColorPickerButton.color
+	var player_name = str($Menu/Name.text)
+	var player_info = {
+		'name': player_name,
+		'color': player_color,
+	}
 	
 	peer.create_client("localhost", port)
 	multiplayer.multiplayer_peer = peer
-	start_game()
+	Players.info[peer.get_unique_id()] = player_info
+	join_lobby()
 
 func _on_host_pressed():
 	var peer = ENetMultiplayerPeer.new()
 	var port = str($Menu/Port.text).to_int()
+	var player_color = $Menu/ColorPickerButton.color
+	var player_name = str($Menu/Name.text)
+	var player_info = {
+		'name': player_name,
+		'color': player_color,
+	}
 	
 	peer.create_server(port)
 	
@@ -34,15 +47,17 @@ func _on_host_pressed():
 		return
 	
 	multiplayer.multiplayer_peer = peer
-	start_game()
+	Players.info[1] = player_info
+	$StartGame.visible = true
+	join_lobby()
 
-func start_game():
+func join_lobby():
 	# Hide the UI and unpause to start the game.
 	$Menu.hide()
-	# Only change level on the server.
+	
 	# Clients will instantiate the level via the spawner.
 	if multiplayer.is_server():
-		change_level.call_deferred(load("res://Levels/lobby.tscn"))
+		change_level.call_deferred(load(lobby))
 
 # Call this function deferred and only on the main authority (server).
 func change_level(scene: PackedScene):
@@ -53,3 +68,7 @@ func change_level(scene: PackedScene):
 		c.queue_free()
 	# Add new level.
 	level.add_child(scene.instantiate())
+	
+
+func _on_start_game_pressed():
+	change_level.call_deferred(load(level1))

@@ -7,18 +7,28 @@ script = ExtResource("1_hhj8t")
 
 [node name="Level" type="Node" parent="."]
 
-[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="."]
+[node name="LevelSpawner" type="MultiplayerSpawner" parent="."]
 _spawnable_scenes = PackedStringArray("res://Levels/lobby.tscn", "res://Levels/Level01.tscn")
 spawn_path = NodePath("../Level")
 
 [node name="Menu" type="VBoxContainer" parent="."]
-offset_right = 200.0
-offset_bottom = 113.0
+top_level = true
+offset_left = 830.0
+offset_top = 296.0
+offset_right = 1127.0
+offset_bottom = 456.0
 
 [node name="Port" type="LineEdit" parent="Menu"]
+visible = false
 layout_mode = 2
 text = "9999"
 placeholder_text = "Port"
+
+[node name="Name" type="LineEdit" parent="Menu"]
+layout_mode = 2
+text = "Name"
+placeholder_text = "Port"
+alignment = 1
 
 [node name="Join" type="Button" parent="Menu"]
 layout_mode = 2
@@ -32,5 +42,15 @@ text = "Host"
 layout_mode = 2
 color = Color(1, 1, 1, 1)
 
+[node name="StartGame" type="Button" parent="."]
+visible = false
+top_level = true
+offset_left = 856.0
+offset_top = 723.0
+offset_right = 1100.0
+offset_bottom = 822.0
+text = "Start Game"
+
 [connection signal="pressed" from="Menu/Join" to="." method="_on_join_pressed"]
 [connection signal="pressed" from="Menu/Host" to="." method="_on_host_pressed"]
+[connection signal="pressed" from="StartGame" to="." method="_on_start_game_pressed"]

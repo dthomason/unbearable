@@ -2,12 +2,12 @@ extends Node
 
 
 
-@export var position:Vector2:
-	set(val):
-		if is_multiplayer_authority():
-			position = val
-		else:
-			get_parent().position = val
+#@export var position:Vector2:
+#	set(val):
+#		if is_multiplayer_authority():
+#			position = val
+#		else:
+#			get_parent().position = val
 
 @export var x_transform:Vector2:
 	set(val):
